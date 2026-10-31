@@ -21,11 +21,11 @@ ASSETS = GOC / "assets"
 # >>> SỬA THÔNG TIN CÁ NHÂN Ở ĐÂY <<<
 # ============================================================
 THONG_TIN = {
-    "ho_ten": "lưu minh toàn",
+    "ho_ten": "Lưu Minh Toàn",
     "mssv": "23458018",
-    "lop": "Lớp của bạn",
+    "lop": "23VL58CT1",
     "mon": "Ứng dụng Matlab trong công nghệ in",
-    "gvhd": "Tên thầy",
+    "gvhd": "thầy Trần Tiến Đức",
     "truong": "Trường Đại học Công nghệ Kỹ thuật TP. HCM",
     "khoa": "Khoa In và Truyền thông",
 }
