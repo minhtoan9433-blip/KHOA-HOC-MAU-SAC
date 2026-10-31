@@ -30,8 +30,10 @@ with col_a:
     st.subheader("Thông tin sinh viên")
     st.markdown(
         f"""
-- **Họ và tên:** {t['Lưu Minh Toàn']}
-- **MSSV:** {t['23458018']}
+- **Họ và tên:** {t['ho_ten']}
+- **MSSV:** {t['mssv']}
+- **Lớp:** {t['lop']}
+- **Giảng viên:** {t['gvhd']}
 """
     )
 with col_b:
