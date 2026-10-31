@@ -9,7 +9,7 @@ t = cs.THONG_TIN
 # ---- Đầu trang: logo trường - tiêu đề - logo khoa ----
 c1, c2, c3 = st.columns([1, 4, 1])
 with c1:
-    cs.hien_logo(cs.logo_truong.png, width=140)
+    cs.hien_logo(cs.logo_truong.png)
 with c2:
     st.markdown(
         f"""
@@ -23,7 +23,7 @@ with c2:
         unsafe_allow_html=True,
     )
 with c3:
-    cs.hien_logo(cs.logo_khoa.png, width=140)
+    cs.hien_logo(cs.logo_khoa.png)
 
 st.divider()
 
