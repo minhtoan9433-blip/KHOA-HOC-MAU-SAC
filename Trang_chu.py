@@ -9,9 +9,9 @@ t = cs.THONG_TIN
 # ---- Đầu trang: banner trường + khoa (trái), logo khoa (phải) ----
 c1, c2 = st.columns([4, 1])
 with c1:
-    cs.hien_logo(cs.LOGO_TRUONG)
+    cs.hien_logo(cs.logo_truong.png)
 with c2:
-    cs.hien_logo(cs.LOGO_KHOA, width=130)
+    cs.hien_logo(cs.logo_khoa, width=130)
 
 st.markdown(
     f"""
