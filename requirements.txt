@@ -1,5 +1,6 @@
 streamlit
 matplotlib
 colour-science
+scipy
 numpy
 pandas
